@@ -1,0 +1,22 @@
+{
+  "name": "ai-generate-text-billed",
+  "version": "1.0.0",
+  "description": "AI 生成文本字段（按授权收费上架版）：自定义任务指令 + 插入字段引用，经自有网关 generate_text 能力生成文本",
+  "main": "index.js",
+  "scripts": {
+    "start": "dingtalk-docs-cool-app start:field",
+    "build": "dingtalk-docs-cool-app pack:field",
+    "pack": "dingtalk-docs-cool-app pack:field",
+    "typecheck": "tsc --noEmit --project tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dingtalk-docs-cool-app": "0.3.9",
+    "@types/node-fetch": "2.6.12"
+  },
+  "devDependencies": {
+    "typescript": "4.9.5",
+    "@types/node": "16.18.126"
+  }
+}
